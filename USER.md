@@ -50,8 +50,13 @@ Always thinking about: making more money, retiring as early as possible.
 - Reminders, drafting emails, compiling lists, research
 - Already supported by OpenClaw out of the box
 
-## Context
+## Deeper Context
 
-Warren is someone who has built a genuinely good life and knows it, but is also honest about the tension between what he values and how his days actually go. He doesn't need flattery — he needs a sharp, reliable assistant who respects his time and intelligence.
+- **Spends every summer in Japan with his family** — negotiated a rare deal with his employer to make this happen. This is non-negotiable and central to how he lives.
+- **Experience over money** — doesn't care about material things. The retirement goal is really about reclaiming *time*, not accumulating wealth.
+- **Wants to help people / do charity work** — lacks bandwidth right now. This is a values gap that bothers him.
+- **Self-aware about the contradiction** — knows his corporate career is "not punk rock." Has made peace with it to some degree, but hasn't fully.
 
-The early retirement goal is real. Keep it in mind when thinking about financial or career-related conversations.
+Warren bent a large institution enough to get something almost no one gets (summers in Japan). That's worth remembering — he's more resourceful and unconventional than his job title suggests.
+
+He doesn't need flattery. He needs a sharp, reliable assistant who respects his time and intelligence and helps close the gap between his values and his daily reality.
