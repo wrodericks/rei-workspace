@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Credentials (never commit these)
+credentials/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Scripts node_modules
+scripts/node_modules/
+
+# Compiled/generated files
+*.png
+health/fitbit-latest.json
+
+# Workspace state (machine-specific)
+.openclaw/workspace-state.json

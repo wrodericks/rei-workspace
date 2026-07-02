@@ -31,6 +31,14 @@ Things like:
 - Default speaker: Kitchen HomePod
 ```
 
+### Samsung TV
+- **IP:** 192.168.2.20
+- **MAC:** dc:71:44:5a:54:d6
+- **Model:** ~2013 Samsung Smart TV
+- **Control port:** 55000 (legacy Samsung API)
+- **Check script:** ~/ibkr/venv/../../../.openclaw/workspace/scripts/tv-check.py
+- **Status check:** `python3 scripts/tv-check.py` → prints "on" or "off"
+
 ## Why Separate?
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
