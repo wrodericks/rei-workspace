@@ -9,12 +9,16 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Scripts node_modules
-scripts/node_modules/
-
 # Compiled/generated files
 *.png
-health/fitbit-latest.json
 
 # Workspace state (machine-specific)
 .openclaw/workspace-state.json
+
+# Project directories (belong in their own repos)
+scripts/
+health/
+health-app/
+research/
+package.json
+package-lock.json
