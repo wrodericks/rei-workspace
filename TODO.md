@@ -31,6 +31,8 @@ Last updated: 2026-04-24
 
 ## 🔧 Tech / Infrastructure
 
+- [ ] **DeepThought SATA cable reseat** — loose SATA cable on `/dev/sda` (WD Blue 1TB SSD). ATA bus errors caused a crash + BIOS screen on Jul 2 morning. Machine is fine for now but cable needs reseating. Quick job, 5 mins. Do on return from Japan.
+
 - [x] **Fitbit OAuth re-auth** — done 2026-05-02. Re-auth reminder set for May 23. Tokens expire every 7 days (unverified app limitation).
 - [x] **Renpho API client** — done 2026-05-16. Package installed, sync working, 9pm cron active.
 - [ ] **Renpho → Google Health weight push** — auto-push weight from Renpho sync to Google Health API nightly. Write endpoint partially built in renpho-sync.py but Google's API returns inconsistent errors (new API, thin docs). Revisit after May 19 Fitbit → Google Health migration settles. Also check if Renpho's native Fitbit integration starts working on its own.

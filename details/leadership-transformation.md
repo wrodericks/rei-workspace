@@ -69,6 +69,35 @@ Agreed 2026-06-20.
 
 Rationale: Day 1 conversations are about vision and approach, not platforms. The team will have platform experts — asking smart questions beats half-baked knowledge. Process reengineering framing is more persuasive than leading with tech.
 
+## Japan Mindset Practice (July–August 2026)
+
+Three behaviours to build before September 9:
+
+### 1. Thoughtful Stoicism
+When something bothers you, ask: *"Is this in my control?"*
+- If no → let it go consciously (not suppressed)
+- If yes → one small action, then move on
+Practice: once a day minimum, as an internal conversation
+
+### 2. Patience
+Pick one moment each day to deliberately slow into — waiting, walking with the kids, a slow conversation. No phone. Just be in it.
+Practice: daily, in the moment
+
+### 3. Grounded Positivity
+Not forced cheerfulness — scanning for what's genuinely good.
+Practice: each evening, name one thing that went well. One sentence. Tell Noriko or just note it internally.
+
+### Mantra
+**"Calm down. React thoughtfully. See the good."**
+Say it in the morning and whenever you feel reactive.
+
+### Daily Touchpoints
+- **Morning:** "Calm down. React thoughtfully. See the good."
+- **During the day:** Notice one moment where you chose your response
+- **Evening:** Name one thing that genuinely went well
+
+---
+
 ## Notes
 - The executive coaching use case Warren had on his list may be more relevant personally than commercially right now
 - Warren wants to lean on Rei for support and thinking throughout this role
