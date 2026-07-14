@@ -1,5 +1,8 @@
 # Health Tracking — Detail
 
+## Conditions / Flags
+- **Gout history** — tracking purines preventively (no recent flare as of Jul 2026). Target <400mg/day.
+
 ## Stats & Goals
 - 52yo, 178cm, 120kg → goal 90kg (20% body fat)
 - Target: 1,900 kcal/day, 140–150g protein (revised 2026-06-30 — fat loss primary, muscle preservation)
