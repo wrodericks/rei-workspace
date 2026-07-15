@@ -30,5 +30,21 @@
 - 11:45PM — Fitbit sleep check
 - Target bedtime: 11–11:30pm
 
+## "Totals" Command
+When Warren says **"totals"**, always produce this table format showing the day's running totals vs. targets, with a status emoji:
+
+| | Today | Target | |
+|---|---|---|---|
+| Calories | X | 1,900 | ✅/⚠️ |
+| Protein | Xg | 140–150g | ✅/⚠️ |
+| Carbs | Xg | <150g | ✅/⚠️ |
+| Fat | Xg | <80g | ✅/⚠️ |
+| Fibre | Xg | 25g+ | ✅/⚠️ |
+| Sugar | Xg | <40g | ✅/⚠️ |
+| Sodium | Xmg | <2,300mg | ✅/⚠️ |
+| Purines | Xmg | <400mg | ✅/⚠️ |
+
+Use ✅ when on target, ⚠️ when off (with a brief note). Estimate any missing micros (fibre, sugar, sodium, purines) based on foods logged. This format should be consistent across all sessions.
+
 ## Weight Trend
 - 120.0 → 118.4 kg over first 3 days (good start as of 2026-04-16)
