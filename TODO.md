@@ -6,6 +6,8 @@ Last updated: 2026-04-24
 
 ## 🧠 Leadership & New Role
 - [ ] **Transformation leadership session** — once job is confirmed, dedicated thinking session on competencies, stakeholder mapping, first 90 days. Lean on Rei throughout. See details/leadership-transformation.md
+- [ ] **Contact Alex (Deloitte)** — re: security architecture for AI environments; he set these up at Deloitte. Key input for sandbox/governance design.
+- [ ] **Peer outreach** — reach out to actuarial AI counterparts at other companies: share ideas, build community of practice, gather competitive intelligence for Kotter Step 1 (urgency with management).
 
 ## 🧠 AI / Context & Architecture
 - [ ] **Diagnose memory search issue** — run `openclaw status` and investigate why memory_search returned no results on 2026-06-06 session start. Possible indexing issue. Warren to paste output when available.
