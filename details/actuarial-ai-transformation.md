@@ -58,6 +58,14 @@ Centrally developed and maintained; used org-wide as reference authorities:
 
 ---
 
+## Sub-Agent Architecture (Personal / OpenClaw Projects)
+- Explore using Rei + sub-agents across Warren's current and future projects (FX trading, health tracking, etc.)
+- Think through which tasks benefit from delegation to sub-agents vs. staying in main session
+- Likely overlap with governance model being designed for the new job — personal projects as a testbed
+- *(To be developed into a fuller design)*
+
+---
+
 ## Open Questions
 - Training delivery: internal, external, or hybrid — TBD
 - Domain agent prioritization: to be decided collaboratively with Warren's boss
