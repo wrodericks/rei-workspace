@@ -22,6 +22,7 @@ Details in details/ folder. Read the relevant file when the topic comes up.
 - Health Tracking → details/health-tracking.md
 - AI Health Coach (commercial) → details/health-coach.md
 - Nutrition Staples → details/nutrition-staples.md
+- Japan Nutrition Staples (active Jul 2026 trip) → details/japan-staples.md
 - Learning Projects (git, LLM from scratch, networking) → details/learning-projects.md
 - Financial Position Monitoring → details/financial-monitoring.md
 - IFRS 17 Domain Expert Agent → details/ifrs17-domain-expert.md

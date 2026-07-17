@@ -1,10 +1,10 @@
 # Japan Staples — Nutrition Reference (Hachinohe 2026)
 
 ## Japan Smoothie Recipe
-23g banana + 36g blueberries + 307ml Silk unsweetened soy milk + 30g Naked Whey + 10g psyllium husk
-→ **~317 kcal | 34.7g protein | 31.4g carbs | 7.1g fat | ~11.5g fibre | ~258mg sodium**
+Same fruit/soy milk as Canada version, but half the protein powder and fibre: 15g Naked Whey + 5g psyllium husk (smaller blender)
+→ **~345 kcal | 26g protein | 36g carbs | 3g fat | ~175mg sodium**
 
-*Smaller than Toronto standard (less fruit, slightly more soy milk) — fits Japan calorie/carb budget better*
+*Smaller than Toronto standard — fits Japan blender size*
 
 ---
 
@@ -24,6 +24,10 @@ Per-unit macros for items Warren uses regularly. All values per package/serving 
 - 68 kcal | 3.9g protein | 12g carbs | 1g fat | 2.3g fibre | ~0 sodium ✅
 
 ---
+
+## Mixed Salad (サラダクラブ — the only mixed salad Warren eats in Japan 2026)
+**Per 100g (label verified):**
+- 27 kcal | 1.1g protein | 6.1g carbs | 0.1g fat | 50mg sodium ✅
 
 ## Shredded Veggie Mix (Coleslaw blend — cabbage, carrot, purple cabbage)
 **Per 81g (approximate serving)**

@@ -6,9 +6,12 @@
 - **Manitoba Harvest Hemp Yeah! Protein Powder (old):** 55 cal/15g — 7.5g protein, 4g carbs, 4g fibre, 0g sugar, 1.5g fat
 - **Lifestyle Psyllium Husk Fibre:** 33 cal/10g — 0g protein, 8g carbs, 8g fibre, 0g fat
 
-## Standard Smoothie Recipe
+## Standard Smoothie Recipe (Canada)
 24g banana (half) + 98g strawberries + 118g blueberries + 300ml Silk soy milk + 10g psyllium + 30g Naked Whey
 → **~392 cal / 36g protein / 51g carbs / 7g fat / 16g fibre / 29g sugar / ~175mg sodium**
+
+## Japan Smoothie Recipe
+→ See details/japan-staples.md
 
 ## Dressings
 - **Farm Boy Apple Cider Garlic Vinaigrette:** 300 cal/100ml — 0.7g protein, 3.3g carbs, 30g fat, 0g fibre, 0g sugar, ~117mg sodium per 100ml (per 30ml serving: 90 cal, 9g fat, 1g carbs, 0g sugar, 35mg sodium)
