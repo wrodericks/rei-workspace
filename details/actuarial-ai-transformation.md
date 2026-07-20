@@ -58,6 +58,28 @@ Centrally developed and maintained; used org-wide as reference authorities:
 
 ---
 
+## AI-Driven Process Optimization Pipeline
+
+An agent pipeline to automate process mapping, analysis, and reengineering — replacing or augmenting what would otherwise be manual BPM consulting work.
+
+### Pipeline Design
+1. **Process Mapper Agent** — takes unstructured input (text descriptions, interview notes, existing docs) and converts to structured BPMN-compatible format (tasks, decisions, swimlanes, flows)
+2. **Analyst Agent** — identifies bottlenecks, gaps, redundancies, manual steps that could be automated
+3. **Domain Expert Agent(s)** — flags compliance issues (IFRS 17, CIA standards, pricing governance, etc.) — reuses the standardized domain agents already planned
+4. **Reengineering Agent** — proposes optimized process with rationale
+5. **Human Review** — validates, adjusts, approves (mandatory human-in-the-loop)
+
+### Output
+- Structured optimization report
+- BPMN XML file — importable directly into Lucidchart, Bizagi, or Visio for visualization
+
+### Notes
+- Domain expert agents from the standardized agents section slot directly into step 3
+- Natural candidate for a hackathon theme — end-to-end demo is achievable in a day
+- Connects BPM/Lean Six Sigma skill-building with AI implementation strategy
+
+---
+
 ## Sub-Agent Architecture (Personal / OpenClaw Projects)
 - Explore using Rei + sub-agents across Warren's current and future projects (FX trading, health tracking, etc.)
 - Think through which tasks benefit from delegation to sub-agents vs. staying in main session
