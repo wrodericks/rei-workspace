@@ -59,15 +59,17 @@ Large orgs are very good at slowly diluting ambitious projects into something sa
 ### Note
 Warren will pick 2-3 courses total across all categories. PgMP prep is a strong candidate. Prioritize breadth of frameworks over depth of any single one.
 
-## Pre-Start Priority Stack (10 weeks to September 2026)
-Agreed 2026-06-20.
+## Pre-Start Priority Stack (revised 2026-07-20)
 
-1. **PM + Process Reengineering** (weeks 1–5) — PgMP prep + SAFe for Leaders. Vocabulary and frameworks for structuring the transformation program.
-2. **Change Leadership** (parallel, daily reading) — Kotter first, HBR anthology alongside. ~30 min/day.
-3. **Platform Literacy** (weeks 6–8) — Snowflake + Databricks at "smart questions" depth, not technical depth.
-4. **GitHub Copilot / Cortex AI** — defer until in-role. Low urgency pre-start.
+### Priority Order
+1. **BPM + Lean Six Sigma** — process mapping, swimlanes, BPMN, bottleneck/gap analysis, reengineering. The substance of the transformation work itself. Build this skill deliberately — it takes practice.
+2. **PgMP frameworks** — program governance, benefits tracking, stakeholder reporting. Needed but can be picked up on the job more easily.
+3. **SAFe for Leaders** — agile at enterprise scale. Short course, high value.
+4. **Change Leadership** (parallel, daily reading) — Kotter ✅ done. HBR anthology next. ~30 min/day.
+5. **Platform Literacy** — Snowflake + Databricks at "smart questions" depth. Defer until closer to start.
+6. **GitHub Copilot / Cortex AI** — defer until in-role.
 
-Rationale: Day 1 conversations are about vision and approach, not platforms. The team will have platform experts — asking smart questions beats half-baked knowledge. Process reengineering framing is more persuasive than leading with tech.
+Rationale: BPM+LSS is the hands-on transformation skill — sitting with teams, mapping processes, finding gaps. PgMP is governance overhead. Do the harder, more practice-dependent skill first. Both are needed.
 
 ## Japan Mindset Practice (July–August 2026)
 
@@ -95,6 +97,31 @@ Say it in the morning and whenever you feel reactive.
 - **Morning:** "Calm down. React thoughtfully. See the good."
 - **During the day:** Notice one moment where you chose your response
 - **Evening:** Name one thing that genuinely went well
+
+---
+
+## Process Mapping & Reengineering Skills
+
+Core discipline: **Business Process Management (BPM) + Lean Six Sigma**
+
+### Learning Path
+1. **BPMN fundamentals** — universal notation for process mapping (swimlanes, flows, decision points)
+   - *"BPMN Method and Style"* — Bruce Silver — definitive book, readable in a weekend
+   - Free primers at bpmn.org
+2. **Lean Six Sigma Green Belt** — analytical framework for bottlenecks, waste, variation
+   - Coursera: University System of Georgia course
+   - Green Belt is the right level (Black Belt = full-time practitioners)
+3. **Process reengineering:**
+   - *"Reengineering the Corporation"* — Hammer & Champy — original text, still relevant, short read
+
+### Tools
+- **Lucidchart** — best UX, cloud-based, collaborative, BPMN templates (start here)
+- **Visio** — standard in corporate environments, swimlanes built in
+- **Bizagi Modeler** — free, purpose-built for BPMN, great for learning
+- **Miro** — workshop-style process discovery with teams
+
+### Recommended Starting Point
+Lucidchart (free trial) + BPMN Method and Style + Lean Six Sigma Green Belt (Coursera) — in that order.
 
 ---
 
