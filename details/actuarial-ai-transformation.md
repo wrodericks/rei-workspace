@@ -80,6 +80,49 @@ An agent pipeline to automate process mapping, analysis, and reengineering — r
 
 ---
 
+## BPMN Generation & Execution Platform
+
+A full-stack platform for AI-generated process automation. Buildable today with current tools.
+
+### Architecture
+```
+Natural language process description
+→ LLM generates BPMN 2.0 XML (validated against BPMN 2.0 spec)
+→ Visualization via bpmn.js (open source, web-based)
+→ Human review and edit
+→ Camunda (or Flowable) executes the process
+→ Agents handle individual task nodes
+```
+
+### Layer 1 — Text → BPMN 2.0 XML
+- LLM prompted with process description + BPMN schema constraints
+- Outputs valid BPMN 2.0 XML
+- Automated validation step before saving
+- Current LLMs are capable of this today
+
+### Layer 2 — Visualization
+- **bpmn.js** — open source JavaScript library (used by Camunda), renders BPMN in browser
+- Web interface: description in → diagram renders automatically → user can review, edit, export
+
+### Layer 3 — Execution
+- BPMN 2.0 is an executable standard
+- **Camunda** or **Flowable** workflow engines take the XML and run the process
+- Each task node can trigger: API call, script, human task (assign + wait), sub-process, or agent
+
+### Layer 4 — Agent Integration
+- Each task node invokes an agent
+- The BPMN diagram becomes the orchestration layer
+- Agents are the executors
+- Maps directly to the AI process optimization pipeline already designed
+
+### Notes
+- This is a legitimate production architecture, not just a prototype
+- Strong candidate for an internal platform at the new company
+- Personal prototype possible before Sep 9 — good way to learn the stack hands-on
+- Connects BPM learning, AI agents, and transformation strategy into one demonstrable system
+
+---
+
 ## Sub-Agent Architecture (Personal / OpenClaw Projects)
 - Explore using Rei + sub-agents across Warren's current and future projects (FX trading, health tracking, etc.)
 - Think through which tasks benefit from delegation to sub-agents vs. staying in main session
