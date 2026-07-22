@@ -4,7 +4,8 @@ Last updated: 2026-04-24
 
 ---
 
-## 🧠 Leadership & New Role
+## 🧠 Leadership & New Role (starts Sep 9)
+- [ ] **BPMN platform prototype** — build proof-of-concept before Sep 9: text → LLM → BPMN 2.0 XML → bpmn.js visualization → Camunda execution → agent task nodes. Learn the stack hands-on while building something directly pitchable at new company. Target: August (post-Japan).
 - [ ] **Transformation leadership session** — once job is confirmed, dedicated thinking session on competencies, stakeholder mapping, first 90 days. Lean on Rei throughout. See details/leadership-transformation.md
 - [ ] **Contact Alex (Deloitte)** — re: security architecture for AI environments; he set these up at Deloitte. Key input for sandbox/governance design.
 - [ ] **Peer outreach** — reach out to actuarial AI counterparts at other companies: share ideas, build community of practice, gather competitive intelligence for Kotter Step 1 (urgency with management).
