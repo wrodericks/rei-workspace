@@ -59,6 +59,14 @@ Large orgs are very good at slowly diluting ambitious projects into something sa
 ### Note
 Warren will pick 2-3 courses total across all categories. PgMP prep is a strong candidate. Prioritize breadth of frameworks over depth of any single one.
 
+## Business Requirements & BABOK
+Warren needs oversight-level fluency — not to write BRDs himself, but to hold BAs accountable, govern scope, and spot vague/missing requirements (where projects go off the rails).
+
+**Recommended course:** "Business Analysis with BABOK Concepts" — Coursera, 10 modules, covers requirements elicitation, stakeholder analysis, solution assessment. BABOK v3 aligned.
+**Alternative:** LinkedIn Learning "Improve Your Business Analysis Skills" learning path — modular, good for dipping in and out.
+
+**Key artifacts to understand:** BRD (Business Requirements Document), functional specs, user acceptance testing (UAT) criteria, change control process.
+
 ## Pre-Start Priority Stack (revised 2026-07-20)
 
 ### Priority Order

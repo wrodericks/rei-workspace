@@ -27,6 +27,7 @@ Centrally developed and maintained; used org-wide as reference authorities:
   - Actuarial assumption change reports
   - Experience study reports
   - *(other standard report types TBD)*
+- **Business Requirements agent** — takes process descriptions, stakeholder inputs, and project context and drafts structured Business Requirements Documents (BRDs) including objectives, scope, business rules, assumptions, and acceptance criteria. Based on BABOK framework.
 - *(more domain agents TBD — prioritization to be decided with Warren's boss)*
 
 ---
