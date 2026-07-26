@@ -132,6 +132,22 @@ Natural language process description
 
 ---
 
+## Industry Recognition & Rankings
+
+Target getting the company onto key AI adoption lists — signals credibility, creates internal urgency, and validates the transformation externally.
+
+### Key Lists to Target
+1. **Evident AI Index for Insurance** (annual) — the gold standard. Ranks 30 global insurers on Talent, Innovation, Leadership, Transparency. Manulife #3 in 2026. Methodology is public — reverse-engineer it and build toward it from day one.
+2. **Conning AI in Insurance Survey** — industry-wide visibility, US-focused but tracked globally
+3. **McKinsey insurance AI reports** — being cited as a case study is significant
+4. **Datos Insights InsAI** — insurance AI conference recognition
+
+### Action
+- **Reach out to Evident directly** — they want to track serious adopters. Ask what it takes to get on the index and how to improve ranking. Early relationship building.
+- Align transformation metrics with Evident's four dimensions from the start
+
+---
+
 ## Open Questions
 - Training delivery: internal, external, or hybrid — TBD
 - Domain agent prioritization: to be decided collaboratively with Warren's boss
