@@ -148,6 +148,32 @@ Target getting the company onto key AI adoption lists — signals credibility, c
 
 ---
 
+## Actuarial AI Use Case Intelligence Database
+
+Collect all publicly available actuarial AI use cases from companies and consultants into a structured, searchable database.
+
+### Sources
+- Consultants: Milliman, Oliver Wyman, Deloitte, McKinsey, Accenture, Willis Towers Watson
+- Actuarial bodies: SOA, CIA, IAA
+- Company press releases and annual reports
+- Evident AI Index reports
+- Conference presentations (IAA, SOA, CIA annual meetings)
+
+### Structure
+| Company | Domain | Use Case | Technology | Outcome | Source | Date |
+
+### Collection Method
+- Initial: manual curation (one-time effort, high quality)
+- Ongoing: automated agent monitors key sources, LLM extracts structured data, appends to database
+
+### Use Cases for This Database
+- Competitive intelligence for Kotter Step 1 urgency conversations
+- Input to hackathon theme selection
+- Evidence base for business cases
+- Gap analysis — what are peers doing that we aren't?
+
+---
+
 ## Open Questions
 - Training delivery: internal, external, or hybrid — TBD
 - Domain agent prioritization: to be decided collaboratively with Warren's boss
