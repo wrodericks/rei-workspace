@@ -119,3 +119,23 @@ A way of converting text (or other data) into a list of numbers (a vector) that 
 Relevant to: RAG-based domain agents — embeddings are what make semantic search work. Understanding them helps you design better document retrieval for the actuarial agents.
 
 ---
+
+## Vector Databases
+A database designed to store and search embeddings (vectors) efficiently. Instead of searching by exact keyword match, a vector database finds the most semantically similar entries to a query.
+
+**How it fits with RAG:**
+1. Documents are chunked and embedded → stored in the vector database
+2. User query is embedded → vector database finds the closest matching chunks
+3. Retrieved chunks are passed to the model as context
+
+**Popular options:**
+- **Pinecone** — managed cloud service, easy to start with
+- **Weaviate** — open source, self-hostable
+- **Chroma** — lightweight, good for local development and prototyping
+- **pgvector** — PostgreSQL extension, good if you're already using Postgres
+
+**Actuarial application:** Store the IFRS 17 standard, CIA educational notes, internal policies as embeddings in a vector DB. Any agent can then retrieve the most relevant sections at query time.
+
+Relevant to: The RAG pipeline powering all domain agents — the vector database is where the knowledge lives.
+
+---
