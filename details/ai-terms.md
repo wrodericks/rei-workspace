@@ -88,3 +88,17 @@ A technique where an AI model is given relevant documents or data at query time,
 Relevant to: Every domain agent in the actuarial AI transformation — RAG is likely the core technique powering them.
 
 ---
+
+## Agent Loops
+The cycle an agent runs through repeatedly until a task is complete: **observe → think → act → observe again**. Each iteration the agent takes in new information (tool results, sub-agent outputs, user feedback), reasons about what to do next, takes an action, and loops back.
+
+**Why it matters:**
+- Agents aren't one-shot — they iterate. A single user request might trigger dozens of loop cycles before the agent is done.
+- Loops can get stuck (infinite loops, circular reasoning) — good harness design includes loop limits and exit conditions
+- The quality of the loop depends heavily on how well the agent evaluates its own progress
+
+**Example:** A process mapping agent receives a description, generates a draft BPMN, evaluates it against the spec, finds errors, fixes them, re-evaluates — looping until the diagram passes validation or a max iteration limit is hit.
+
+Relevant to: The BPMN generation platform and process optimization pipeline — both involve agents that iterate toward a valid output rather than producing it in one shot.
+
+---
