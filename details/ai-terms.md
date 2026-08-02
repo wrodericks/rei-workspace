@@ -64,3 +64,27 @@ Think of it like USB for AI — instead of every tool needing a custom integrati
 Relevant to: Skill development model, governance layer, domain agents — MCP is likely the right interface standard for actuarial skills and agents.
 
 ---
+
+## RAG (Retrieval-Augmented Generation)
+A technique where an AI model is given relevant documents or data at query time, rather than relying solely on what it learned during training. The model *retrieves* relevant content first, then *generates* a response using both its training and the retrieved content.
+
+**How it works:**
+1. User asks a question
+2. System searches a document store (vector database) for relevant chunks
+3. Retrieved chunks are added to the model's context
+4. Model generates a response grounded in those documents
+
+**Why it matters:**
+- Keeps responses accurate and up-to-date (training data has a cutoff)
+- Grounds the model in *your* documents — proprietary data, internal policies, standards
+- Reduces hallucination on domain-specific questions
+
+**Actuarial applications:**
+- IFRS 17 agent RAG'd against the full IFRS 17 standard text
+- CIA standards agent RAG'd against CIA educational notes and standards of practice
+- Pricing governance agent RAG'd against internal policy documents
+- All of the domain agents in Warren's transformation plan are natural RAG candidates
+
+Relevant to: Every domain agent in the actuarial AI transformation — RAG is likely the core technique powering them.
+
+---
