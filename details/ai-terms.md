@@ -102,3 +102,20 @@ The cycle an agent runs through repeatedly until a task is complete: **observe �
 Relevant to: The BPMN generation platform and process optimization pipeline — both involve agents that iterate toward a valid output rather than producing it in one shot.
 
 ---
+
+## Embeddings
+A way of converting text (or other data) into a list of numbers (a vector) that captures its meaning. Similar text produces similar vectors — meaning you can measure how "close" two pieces of text are in meaning, not just whether they share the same words.
+
+**How it works:**
+- "The policyholder died" and "the insured passed away" would have very similar vectors despite different words
+- "Mortality assumption" and "interest rate risk" would have very different vectors
+
+**Why it matters:**
+- Embeddings are the engine behind RAG — when you search a document store, you're finding chunks whose embedding is closest to your query's embedding
+- Also used for classification, clustering, and similarity search
+
+**Actuarial application:** Embedding the full IFRS 17 standard means an agent can find the most relevant paragraphs for any question, even if the exact words don't match.
+
+Relevant to: RAG-based domain agents — embeddings are what make semantic search work. Understanding them helps you design better document retrieval for the actuarial agents.
+
+---
