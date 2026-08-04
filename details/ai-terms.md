@@ -139,3 +139,24 @@ A database designed to store and search embeddings (vectors) efficiently. Instea
 Relevant to: The RAG pipeline powering all domain agents — the vector database is where the knowledge lives.
 
 ---
+
+## QM (Quartermaster)
+An open-source **multiplayer AI agent harness** developed by Y Combinator — the tool they built to run AI agents across their entire organization.
+
+**What makes it different from a single-agent harness:**
+- Designed for *teams*, not individuals — multiple people can work with agents simultaneously in shared Slack channels and projects
+- Each user gets isolated workspaces (own memory, files, permissions, sandbox), but agents can also collaborate in shared "rooms"
+- Vendor-agnostic — supports multiple AI models and coding agents (Codex, Claude Code, OpenCode, Pi)
+- Supports background automation via crons and watches (e.g., monitor CI, triage inboxes)
+- Teams can publish internal web apps and share skills via Git
+
+**Why it matters:**
+- YC built it after managing too many individual AI agents became unwieldy at scale — QM is their answer to "how do you go from personal AI tool to org-wide AI tool"
+- Directly relevant to Warren's transformation mandate — the organizational layer of AI deployment is exactly what QM is designed for
+- Open source — Warren wants to experiment with it hands-on
+
+**Warren wants to:** Build something small with QM to understand the multiplayer harness model firsthand before applying the pattern at work.
+
+Relevant to: Actuarial AI transformation — understanding how to scale agents across a team, not just run them individually.
+
+---
