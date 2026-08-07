@@ -8,6 +8,18 @@
 - AI-enabled actuarial processes as the core mandate
 - Staff-contributed skills as the unit of capability — composable, domain-specific, shareable across the org
 
+## Core Design Philosophy
+**Design for agents, operate with humans, migrate incrementally as confidence builds and headcount reduces naturally.**
+
+Build tools and process architecture assuming agents will nominally perform the work in the future — even if humans perform it in the foreseeable future. Key principles:
+
+- BPMN nodes don't care whether a human or agent executes them — the interface is the same; agent takeover is a configuration change, not a rebuild
+- Forces clarity in process design — if a task can't be spec'd well enough for an agent, humans don't have clear enough instructions either
+- Future-proofs investment without forcing disruptive transitions before the org is ready
+- Leave space in every process node for an agent to step in when ready
+- Human impact managed through natural attrition and reskilling — not displacement events
+- The transformation roadmap is a gradual handoff, not a big-bang switch
+
 ---
 
 ## Skill Development Model
@@ -28,6 +40,7 @@ Centrally developed and maintained; used org-wide as reference authorities:
   - Experience study reports
   - *(other standard report types TBD)*
 - **Business Requirements agent** — takes process descriptions, stakeholder inputs, and project context and drafts structured Business Requirements Documents (BRDs) including objectives, scope, business rules, assumptions, and acceptance criteria. Based on BABOK framework.
+- **Meeting Intelligence Agent** — integrates with Microsoft 365 Copilot/Teams to: (1) transcribe and summarize meetings in real-time, (2) ask clarifying questions during discussion when topics are ambiguous or underspecified, (3) extract structured data from transcripts (decisions, action items, process descriptions, open questions, owners), (4) catalogue all meeting outputs in a searchable, tagged knowledge base. Downstream agents (process mapper, project planner, documentation agent) query the catalogue directly — meetings automatically feed the transformation pipeline. Built on Copilot extensibility APIs + Teams bot framework.
 - *(more domain agents TBD — prioritization to be decided with Warren's boss)*
 
 ---
@@ -65,10 +78,13 @@ An agent pipeline to automate process mapping, analysis, and reengineering — r
 
 ### Pipeline Design
 1. **Process Mapper Agent** — takes unstructured input (text descriptions, interview notes, existing docs) and converts to structured BPMN-compatible format (tasks, decisions, swimlanes, flows)
-2. **Analyst Agent** — identifies bottlenecks, gaps, redundancies, manual steps that could be automated
+2. **Process Improvement Analysis Agent** — analyzes the mapped process against improvement frameworks (Lean, Six Sigma, Theory of Constraints, etc.); identifies waste, bottlenecks, redundancies, and automation opportunities
 3. **Domain Expert Agent(s)** — flags compliance issues (IFRS 17, CIA standards, pricing governance, etc.) — reuses the standardized domain agents already planned
 4. **Reengineering Agent** — proposes optimized process with rationale
-5. **Human Review** — validates, adjusts, approves (mandatory human-in-the-loop)
+5. **Project Planner Agent** — converts improvement recommendations into an actionable project plan (WBS, timeline, milestones)
+6. **Resourcing Agent** — maps the plan to skills and people; flags capability gaps
+7. **Documentation Agent** — synthesizes all upstream outputs (interview notes, process descriptions, BPMN maps, XML, improvement analysis, project plans) into comprehensive, standardized human-readable documentation (SOPs, process manuals, training materials, governance docs). Preserves institutional knowledge as the process evolves and agent autonomy increases.
+8. **Human Review** — validates, adjusts, approves (mandatory human-in-the-loop)
 
 ### Output
 - Structured optimization report
@@ -78,6 +94,11 @@ An agent pipeline to automate process mapping, analysis, and reengineering — r
 - Domain expert agents from the standardized agents section slot directly into step 3
 - Natural candidate for a hackathon theme — end-to-end demo is achievable in a day
 - Connects BPM/Lean Six Sigma skill-building with AI implementation strategy
+- **Longer-term aspiration:** pipeline outputs BPMN XML that becomes executable — AI agents perform as many process steps as possible autonomously. This is the end state but requires careful sequencing:
+  - Human impact must be thought through carefully — displacement, reskilling, change management
+  - Start with AI-assisted (human in the loop everywhere), not AI-autonomous
+  - Earn trust through demonstrated accuracy before expanding autonomy
+  - The BPMN execution platform (Camunda layer) is the infrastructure that makes this possible when the org is ready
 
 ---
 
@@ -171,6 +192,14 @@ Collect all publicly available actuarial AI use cases from companies and consult
 - Input to hackathon theme selection
 - Evidence base for business cases
 - Gap analysis — what are peers doing that we aren't?
+
+---
+
+## Actuarial Function Mandates (non-AI)
+Deliverables that are part of the role beyond the AI transformation:
+
+- **Risk-adjusted profitability metrics** — establish a consistent framework (RAROC + VNB/CSM) for evaluating insurance products across the function. See details/risk-adjusted-profitability.md
+- **Tail risk modeling — interest rate risk** — develop sophisticated tail risk modeling beyond current CTE standard. Target: CLIFR stochastic + EVT + copula framework. Defensible to OSFI, ahead of industry practice. See details/tail-risk-modeling.md
 
 ---
 

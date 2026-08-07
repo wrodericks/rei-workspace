@@ -30,6 +30,38 @@
 - 11:45PM — Fitbit sleep check
 - Target bedtime: 11–11:30pm
 
+## Energy Management Framework
+Goal: consistently high energy for work, gym, and family.
+
+### Key Levers (evidence-based)
+- **Sleep** — highest leverage; consistency of wake time matters more than total hours
+- **Meal composition** — protein + fat + fibre at meals slows glucose, avoids spikes/crashes
+- **Meal timing** — front-load calories earlier; late heavy meals disrupt sleep and next-day energy
+- **Hydration** — even mild dehydration tanks energy; unsweetened tea counts
+- **Post-meal movement** — 10 min walk after eating flattens glucose spikes significantly
+- **Exercise** — increases baseline energy over time; short-term fatigue, long-term gain
+
+### Daily Energy Tracking
+Rate energy at three points using: **High / Med / Low / Zero**
+- **Morning** — after waking, before caffeine
+- **Afternoon** — around 3pm
+- **Evening** — around 8pm
+
+Most days will be Med — that's the baseline. Definitions:
+- **High** — noticeably energized
+- **Med** — normal, functional baseline
+- **Low** — tired, dragging, below par
+- **Zero** — something went wrong (sick, very hungover, etc.) — rare
+
+Log in daily health file under Energy Log section.
+
+### Rei's Role
+- Flag meal compositions likely to cause energy crashes (high carb + low protein/fat/fibre)
+- Note sleep duration in daily logs
+- Surface patterns over time (e.g. "low afternoon energy correlates with late high-carb dinners")
+
+---
+
 ## "Totals" Command
 When Warren says **"totals"**, always produce this table format showing the day's running totals vs. targets, with a status emoji:
 
