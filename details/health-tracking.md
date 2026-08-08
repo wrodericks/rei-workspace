@@ -80,3 +80,42 @@ Use ✅ when on target, ⚠️ when off (with a brief note). Estimate any missin
 
 ## Weight Trend
 - 120.0 → 118.4 kg over first 3 days (good start as of 2026-04-16)
+
+---
+
+## Weight Regression Analysis (planned)
+Goal: identify what actually drives daily weight change. Warren's hypothesis: alcohol is the biggest driver of water retention.
+
+### Variables to test (against Δweight day-over-day)
+- Alcohol (Y/N or units)
+- Sodium (mg)
+- Carbohydrates (g)
+- Caloric surplus/deficit
+- Exercise (Y/N)
+- Prior day weight (autocorrelation)
+
+### Modelling notes
+- Use rolling average deficit (3-day and 5-day) rather than single-day — weight responds to cumulative energy balance
+- Test rolling sodium and carbs too — water retention can persist 2-3 days
+- Run both 3-day and 5-day windows, compare fit
+- Simple multiple linear regression to start; check residuals for non-linearity
+- Data quality caveat: food logging inconsistent early on and in Japan
+
+### Status
+Planned — run after return to Toronto (Aug 15+). Enough data (~100+ weight observations) to get meaningful results.
+
+### Handling Incomplete Data
+Five options considered:
+
+1. **Complete cases only** — drop days with missing food data. Clean but loses data; risk of selection bias if missing days correlate with indulgent eating.
+2. **Multiple imputation** — fill missing values statistically. More complex, adds noise.
+3. **Segment by period** — run regression separately on well-logged periods (Toronto Apr-Jul vs. Japan Jul-Aug). Honest about data quality differences.
+4. **Partial variables** — include days for variables we do have, exclude only for missing ones. Most regression frameworks handle this naturally.
+5. **Simplify for sparse periods** — Japan: use alcohol Y/N, exercise Y/N, weight only. Drop nutrition variables where logging is patchy.
+
+**Recommended approach: Option 3 + 4**
+- Segment by period
+- Use available variables per day
+- Flag data quality explicitly
+- Add a **data quality score** (0/1/2) per day as a control variable or filter
+
